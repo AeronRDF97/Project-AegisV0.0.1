@@ -6,6 +6,7 @@ public class character : MonoBehaviour
 {
 
     public float speed = 6.0f;
+    public float dspeed = 52.0f;
     public float rotateSpeed = 6.0f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
@@ -32,6 +33,10 @@ public class character : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 moveDirection.y = jumpSpeed; 
+            }
+            if (Input.GetButtonDown("Fire2"))
+            {
+                moveDirection *= dspeed;
             }
         }
        

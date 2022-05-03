@@ -1,0 +1,4 @@
+repository "ProjectAegis_V0.0.1@UAQ@cloud"
+  path "/"
+    smartbranch "/main/Assets" changeset "4"    
+     

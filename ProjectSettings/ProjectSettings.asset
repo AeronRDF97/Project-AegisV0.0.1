@@ -637,6 +637,7 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
+  vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
@@ -680,7 +681,7 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 531f7863-a45a-4f25-bd61-b67637096fa7
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 
